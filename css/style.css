@@ -441,11 +441,7 @@
   border-radius: 9999px;
   padding: 2rem;
 }
-@media (max-width: 36em) {
-  .form__icon {
-    padding: 1rem;
-  }
-}
+
 
 .icon__form {
   fill: white;
