@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="lib/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="lib/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="lib/favicon/favicon-16x16.png">
+    <link rel="manifest" href="lib/favicon/site.webmanifest">
+    <link rel="mask-icon" href="lib/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="lib/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="lib/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Kontakt</title>
+</head>
+<body>
+<div class="container">
+    <nav class="header__nav">
+        <a href="index.html"><img src="images/webdesign-logo.png" alt="logo" class="header__nav-logo"></a>
+       
+       
+       
+        <input type="checkbox" id="navi" autocomplete="off">
+       <label for="navi">
+        
+       <div class="mobile-nav-button">&equiv;</div>
+    </label>  
+       <div class="mobile-nav-content">
+    
+        <ul>
+            <li class="header__nav-list"><a href="index.html" class="header__nav-link >Startseite</a></li>
+            <li class="header__nav-list"><a href="leistungen.html" class="header__nav-link">Leistungen</a></li>
+            <li class="header__nav-list"><a href="kontakt.html" class="header__nav-link header__nav-link--active">Kontakt</a></li>
+            <li class="header__nav-list"><a href="impressum.html" class="header__nav-link">Impressum</a></li>
+        </ul>
+    
+       </div>
+    
+    </nav>
+<header class="header--small"></header>
+
+<section class="contact">
+    <h1 class="heading heading--page__leistung">Interessiert ?</h1>
+    <p class="contact__heading-sub">
+        
+Ut recusandae perferendis ut eius dolor aut voluptatibus veritatis hic veritatis inventore. Qui debitis 
+dolorum ut doloribus praesentium vel eius exercitationem. Sed nihil autem eum molestiae corrupti ad adipisci 
+sint aut internos voluptatibus et cumque excepturi.
+    </p>
+<div class="form__container">
+    <div class="form__container-left">
+<form id="contact__form" action="kontakt.html" method="post">
+
+    <div class="contact__form-name">
+<label for="firstname" class="screenreader">Vorname</label>
+<input class="form__contact" type="text" id="firstname" name="vorname" placeholder="Vorname" required>
+<wbr>
+<label for="secondname" class="screenreader">Nachname</label>
+<input class="form__contact" type="text" name="nachname" id="secondname" placeholder="Nachname" required><br>
+</div>
+<label for="email" class="screenreader">E-Mail</label>
+<input class="form__contact" type="email" name="email" id="email" placeholder="E-Mail" title="Bitte eine gültige E-Mail eingeben" required><br>
+
+<label for="anfrage" class="screenreader">Anfrage</label>
+<textarea class="form__contact" id="anfrage" placeholder="Bitte Ihre Anfrage hier eingeben" name="anfrage"></textarea><br>
+<label for="button" class="screenreader">Absenden</label>
+<button class="button" id="button" type="submit" for="contact__form">Senden</button>
+</form>
+</div>
+
+<div class="form__container-right">
+<a href="tel:1234567">
+    <div class="form__icon-content">
+        <div class="form__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><g class="icon__form"><path d="M13 46q-1.2 0-2.1-.9-.9-.9-.9-2.1V5q0-1.2.9-2.1.9-.9 2.1-.9h22q1.2 0 2.1.9.9.9.9 2.1v38q0 1.2-.9 2.1-.9.9-2.1.9Zm0-7.5V43h22v-4.5Zm11 3.75q.65 0 1.075-.425.425-.425.425-1.075 0-.65-.425-1.075-.425-.425-1.075-.425-.65 0-1.075.425-.425.425-.425 1.075 0 .65.425 1.075.425.425 1.075.425ZM13 35.5h22v-26H13Zm0-29h22V5H13Zm0 32V43Zm0-32V5v1.5Z"/></g></svg>
+        </div>
+    </div>+49 179 1632 289
+</a>
+
+<a href="mailto:1234567@email.de">
+    <div class="form__icon-content form__icon-content--bottom">
+        <div class="form__icon">
+            <svg  height="48" width="48"><g class="icon__form"><path d="M7 40q-1.2 0-2.1-.9Q4 38.2 4 37V11q0-1.2.9-2.1Q5.8 8 7 8h34q1.2 0 2.1.9.9.9.9 2.1v26q0 1.2-.9 2.1-.9.9-2.1.9Zm17-15.1L7 13.75V37h34V13.75Zm0-3L40.8 11H7.25ZM7 13.75V11v26Z"/></g></svg>        </div>
+    </div>info@webdesign-<br>example.de
+</a>
+
+</div>
+</div>
+</section>
+
+<footer class="footer">
+    <p>&#169; WebDesign made Simple</p>
+
+    <a class="footer__link" href="impressum.html">Impressum </a>  
+    
+</footer>
+</div>
+
+    
+</body>
+</html>
